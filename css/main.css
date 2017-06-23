@@ -1,0 +1,269 @@
+body{
+	padding-top: 50px;
+	font-family: "Playfair Display";
+}
+
+#headerWrapper{
+	position:relative;
+	padding:0;
+	margin: 0;
+	overflow: hidden;
+	/* si je veux afficher l'image de background sur tout l'ecran, je devrais utiliser le parametrage suivant:;
+	height: 650px;*/
+	height: 250px;
+	background-image: url(../images/imageDeFond.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+#logotext{
+	position: absolute;
+	/*
+	Les éléments positionnés en absolu sont placés par-dessus le reste des 
+	éléments de la page ! Par ailleurs, si vous placez deux éléments en 
+	absolu vers le même endroit, ils risquent de se chevaucher. Dans ce cas,
+	utilisez la propriété z-index pour indiquer quel élément doit apparaître 
+	au-dessus des autres.
+	*/
+	width: 100%;
+	height: 180px;
+	padding:0;
+	margin: 0;
+	background-image: url(../images/CroisieresPourTousLogo.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 20% 180px;
+	top: 50%;
+	margin-top: -90px;
+}
+
+#appelleMoi{
+	position: fixed;
+    right:0px;
+	bottom: 0px;
+	opacity: .7;
+}
+
+/*
+ancienne version
+.img-thumb{
+	width:auto;
+	height: 200px;
+
+}
+*/
+
+.img-thumb{
+	width:auto;
+	height: auto;
+	overflow:hidden;
+	width:90%;
+}
+
+.ArrangeMarge{
+	margin-top: 50px;
+    /*margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: 10px;*/
+}
+
+.ArrangeMargeBcpDeTexte{
+	margin-top: 50px;
+   /* margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;*/
+    /*border: 3px solid #A0A0A0;*/
+}
+/*j'ai cree cette classe ArrangeMargeBcpDeTexte pour la Croisiere Asie du Sud Est , etant donné qu'il y a 
+pas mal de texte dans le resume de cette croisiere, donc ca decale a div du dessous*/
+
+
+#footer{
+	margin-top: 50px;
+}
+
+img.details{
+	width:33%;
+	margin: 15px auto; 
+}
+
+.imgTouteLaLargeur{
+	margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab-box { 
+  background-color: #0266C8;
+  padding: 0;
+  width: 100%;
+}
+
+.divider {
+ background-color: white;
+ height: 6px;
+ margin: 0;
+ opacity: 1;
+}
+
+.date-query-box {
+  padding: 20px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.couleurFond{
+	margin-top: 10px;
+	padding-bottom: 20px;
+	background-color: #C0C0C0;
+/*	outline: 2px solid black;
+	    outline-offset: -10px;
+    -moz-outline-radius: 10px;
+    -webkit-outline-radius: 10px;*/
+    border: black solid 2px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px;
+*//*	background-color: #0266C8;*/
+	/*font-size: 2em;*/
+	font-size: 14px;
+	font-color : "blue";
+/*	color: #ff0000;*/
+
+}
+
+.div-inline{
+    display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+.priceDansModal{
+	font-Weight: bolder;
+}
+
+
+
+
+
+.btn-default {
+    top: 25%;
+    left:25%; 
+    color: #999; 
+    background: #fffccc; 
+} 
+
+
+
+.table-auto{
+	width:auto;
+	margin: 0 auto;
+}
+
+
+#login-form{
+	width : 33%;
+/*	floriant avait mis :width : 43%;
+*/	height: auto 70%;
+	border: 2px solid #000;
+	border-radius: 15px;
+	box-shadow: 7px 7px 15px rgba(0,0,0,0,6);
+	margin: auto;
+	padding: 3%;
+	background-color: #fff;
+}
+
+
+#add-product-btn{
+	margin-top: -35px;
+}
+
+
+
+
+.flash {
+   animation-name: flash;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: red;}
+    to {color: yellow;}
+}
+
+/* CSS pour login */
+.container {
+    padding: 25px;
+    position: fixed;
+} 
+
+.form-login {
+
+	background-color: #EDEDED;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+	border-color:#d2d2d2;
+	border-width: 5px;
+	box-shadow:0 1px 0 #cfcfcf;
+}
+
+ 
+h4 {
+
+	border:0 solid #fff;
+	border-bottom-width:1px;
+	padding-bottom:10px;
+	text-align: center;
+}
+
+h4.alignerAGauche {
+	text-align: left;
+}
+ 
+
+.form-control {
+    border-radius: 10px;
+}
+
+ 
+
+.wrapper {
+    text-align: center;
+}
+
